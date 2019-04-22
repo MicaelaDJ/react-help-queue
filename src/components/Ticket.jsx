@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 function Ticket(props){
   var ticketStyles = {
     backgroundColor: '#ecf0f1',
-    fontFamily: 'sans-serif',
+    fontFamily: 'courier',
     paddingTop: '50px',
     textAlign: 'center'
   }
