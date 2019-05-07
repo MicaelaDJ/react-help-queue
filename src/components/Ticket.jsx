@@ -10,6 +10,7 @@ function Ticket(props){
   };
   return (
     <div style={ticketStyles}>
+      <p>{props.images}</p>
       <h3>{props.location} - {props.names}</h3>
       <p><em>{props.issue}</em></p>
       <hr/>
