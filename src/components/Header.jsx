@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Header(){
   var headerStyles = {
@@ -26,7 +27,8 @@ function Header(){
   };
   return (
     <div style={headerStyles}>
-      <button style={buttonStyles}>Home</button>
+      <button style={buttonStyles}><Link to='/'>Home</Link></button>
+      <button style={buttonStyles}><Link to='/newticket'>Create Ticket</Link></button>
       <button style={buttonStyles}>Notifications</button>
       <button style={buttonStyles}>Messages</button>
       <div style={rightStyles}>
