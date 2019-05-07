@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
 function Header(){
   var headerStyles = {
     backgroundColor: '#d2def2',
-  }
+  };
   var buttonStyles = {
     backgroundColor: '#607699',
     color: 'white',
@@ -12,18 +12,18 @@ function Header(){
     margin: '10px',
     fontSize: '20px',
     border: 'none',
-  }
+  };
   var rightStyles = {
     padding: '15px',
     float: 'right'
-  }
+  };
   var searchStyles = {
     fontSize: '20px',
 
-  }
+  };
   var gabStyles = {
     fontSize: '20px'
-  }
+  };
   return (
     <div style={headerStyles}>
       <button style={buttonStyles}>Home</button>

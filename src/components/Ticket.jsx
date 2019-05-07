@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function Ticket(props){
   var ticketStyles = {
@@ -7,7 +7,7 @@ function Ticket(props){
     fontFamily: 'courier',
     paddingTop: '50px',
     textAlign: 'center'
-  }
+  };
   return (
     <div style={ticketStyles}>
       <h3>{props.location} - {props.names}</h3>
